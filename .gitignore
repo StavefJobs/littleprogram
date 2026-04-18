@@ -1,6 +1,5 @@
 # 点子，灵感的地方，暂时不对外开放了。
-github-hosts
-github-hosts/*
+# github-hosts (已从gitignore中移除，保留目录结构)
 
 # Logs
 logs
