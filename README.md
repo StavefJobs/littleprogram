@@ -1,6 +1,6 @@
 # 小项目合集
 
-这个仓库包含了使用 Web 技术栈开发的两个有趣的项目。
+这个仓库包含了使用 Web 技术栈和 Python 开发的多个有趣项目。
 
 ## 📋 To-Do List 待办事项
 
@@ -47,25 +47,63 @@
 
 ---
 
+## 🌐 Proxy Script 代理管理脚本
+
+跨平台的 GitHub 代理管理脚本，自动搜索、测试和更新代理。
+
+### 功能特性
+- 🔍 自动从多个源获取代理列表
+- ⚡ 多线程测试代理延迟
+- 📊 筛选延迟最低的10个代理
+- ⏰ 每小时自动更新代理池
+- 📁 按日期/小时保存代理数据
+- 🖥️ 支持 Windows/Linux/macOS
+- 👆 用户确认是否更换代理
+
+### 安装使用
+```bash
+cd proxy-script
+pip install -r requirements.txt
+python proxy_manager.py
+```
+
+### 详细说明
+请查看 `proxy-script/README.md`
+
+---
+
 ## 📁 项目结构
 
 ```
 littleprogram/
-├── To-Do-list/
+├── skills/              # 项目总结
+│   └── SKILL.md
+├── To-Do-list/          # 待办事项应用
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
-├── Snake-game/
+├── Snake-game/          # 贪吃蛇游戏
 │   ├── index.html
 │   ├── style.css
 │   └── game.js
-└── README.md
+├── proxy-script/        # 代理管理脚本
+│   ├── proxy_manager.py
+│   ├── requirements.txt
+│   └── README.md
+└── README.md           # 本文件
 ```
 
 ## 🛠️ 技术栈
 
+### Web 项目
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 - LocalStorage 本地存储
 - Canvas 绘图
+
+### Python 项目
+- Python 3.7+
+- requests 库
+- 多线程
+- socket 编程
